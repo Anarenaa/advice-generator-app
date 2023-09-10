@@ -9,7 +9,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [What I learned](#what-i-learned)
+  - [A piece of code that I'm proud of](#A piece of code that I'm proud of)
   - [Continued development](#continued-development)
 - [Author](#author)
 
@@ -37,7 +37,7 @@ Users should be able to:
 ## My process
 
 
-### What I learned
+### A piece of code that I'm proud of
 
 ```js
 if (performance.getEntriesByType("navigation")[0].type === "reload") {
