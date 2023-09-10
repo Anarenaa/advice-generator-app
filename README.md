@@ -9,7 +9,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [A piece of code that I'm proud of](#A piece of code that I'm proud of)
+  - [A piece of code that I'm proud of](#a-piece-of-code-that-I'm-proud-of)
   - [Continued development](#continued-development)
 - [Author](#author)
 
