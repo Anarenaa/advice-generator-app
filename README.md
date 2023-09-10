@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Anarenaa/advice-generator-app
+- Solution URL: https://www.frontendmentor.io/solutions/advice-generator-app-9z2S57c2a4
 - Live Site URL: https://anarenaa.github.io/advice-generator-app
 
 ## My process
