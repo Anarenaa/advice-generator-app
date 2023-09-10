@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    background-color: hsl(218, 23%, 16%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+@media (min-width: 1660px) {
+    html,body {
+        font-size: 1.25rem;
+    }
+}
+.container {
+    max-width: 35rem;
+    background-color: hsl(217, 19%, 24%);
+    padding: 3.6rem 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+}
+@media (max-width: 425px) {
+    .container {
+        padding: 3.6rem 1.75rem;
+    }
+}
+.advice {
+    margin-bottom: 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    font-size: 0.875rem;
+    color: hsl(150, 100%, 66%);
+}
+.quote {
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;
+}
+.img-desktop {
+    width: 27.75rem;
+}
+.generate-btn {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+.generate-btn:hover {
+    -webkit-box-shadow: 0 0 1.25rem hsl(150, 100%, 66%);
+            box-shadow: 0 0 1.25rem hsl(150, 100%, 66%);
+}
+.generate-btn img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.hide {
+    display: none;
+}
