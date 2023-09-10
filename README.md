@@ -9,7 +9,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [A piece of code that I'm proud of](#a-piece-of-code-that-I'm-proud-of)
   - [Continued development](#continued-development)
 - [Author](#author)
 
@@ -35,25 +34,6 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
-
-### A piece of code that I'm proud of
-
-```js
-if (performance.getEntriesByType("navigation")[0].type === "reload") {
-    const storedAdvice = localStorage.getItem('advice');
-    const storedId = localStorage.getItem('id');
-
-    if (storedAdvice && storedId) {
-        document.querySelector('.id').innerHTML = storedId;
-        document.querySelector('.quote').innerHTML = `"${storedAdvice}"`;
-    } else {
-        getquote(api_url);
-    }
-} else {
-    getquote(api_url);
-}
-```
 
 ### Continued development
 
